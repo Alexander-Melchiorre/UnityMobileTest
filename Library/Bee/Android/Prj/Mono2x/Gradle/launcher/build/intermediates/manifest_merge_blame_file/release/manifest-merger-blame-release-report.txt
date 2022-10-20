@@ -1,0 +1,310 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.UnityAdsAssignmentProject"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+20    <uses-feature
+20-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-15:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:9-55
+22        android:required="false" />
+22-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-33
+23
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:5-67
+24-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:22-64
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-79
+25-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:22-76
+26
+27    <uses-feature
+27-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:5-22:36
+28        android:name="android.hardware.touchscreen"
+28-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-52
+29        android:required="false" />
+29-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-33
+30    <uses-feature
+30-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:5-25:36
+31        android:name="android.hardware.touchscreen.multitouch"
+31-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-63
+32        android:required="false" />
+32-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-33
+33    <uses-feature
+33-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:5-28:36
+34        android:name="android.hardware.touchscreen.multitouch.distinct"
+34-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-72
+35        android:required="false" />
+35-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-33
+36
+37    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+37-->[:com.unity3d.mediation.mediation-sdk-1.0.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\0bec669b4db5995aaee0dd63758ff678\com.unity3d.mediation.mediation-sdk-1.0.0\AndroidManifest.xml:6:3-77
+37-->[:com.unity3d.mediation.mediation-sdk-1.0.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\0bec669b4db5995aaee0dd63758ff678\com.unity3d.mediation.mediation-sdk-1.0.0\AndroidManifest.xml:6:20-74
+38    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Android package visibility setting -->
+38-->[:com.google.android.gms.play-services-measurement-sdk-api-18.0.3:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\41abf4a78e8911d160d2469374155851\com.google.android.gms.play-services-measurement-sdk-api-18.0.3\AndroidManifest.xml:25:5-68
+38-->[:com.google.android.gms.play-services-measurement-sdk-api-18.0.3:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\41abf4a78e8911d160d2469374155851\com.google.android.gms.play-services-measurement-sdk-api-18.0.3\AndroidManifest.xml:25:22-65
+39    <queries>
+39-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:24:3-37:13
+40
+41        <!-- For browser content -->
+42        <intent>
+42-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:26:5-30:14
+43            <action android:name="android.intent.action.VIEW" />
+43-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:27:7-59
+43-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:27:15-56
+44
+45            <category android:name="android.intent.category.BROWSABLE" />
+45-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:28:7-68
+45-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:28:17-65
+46
+47            <data android:scheme="https" />
+47-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:29:7-38
+47-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:29:13-35
+48        </intent>
+49        <!-- End of browser content -->
+50        <!-- For CustomTabsService -->
+51        <intent>
+51-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:26:5-30:14
+52            <action android:name="android.support.customtabs.action.CustomTabsService" />
+53        </intent>
+54        <!-- End of CustomTabsService -->
+55    </queries>
+56
+57    <application
+57-->D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+58-->[:androidx.core.core-1.2.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\4527d81fa1dab2c4adef56282f6f51b4\androidx.core.core-1.2.0\AndroidManifest.xml:24:18-86
+59        android:extractNativeLibs="true"
+59-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:18-50
+60        android:icon="@mipmap/app_icon"
+60-->D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+61        android:label="@string/app_name" >
+61-->D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+62        <activity
+62-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:9-51:20
+63            android:name="com.unity3d.player.UnityPlayerActivity"
+63-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:13-66
+64            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+64-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-194
+65            android:hardwareAccelerated="false"
+65-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-48
+66            android:launchMode="singleTask"
+66-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-44
+67            android:resizeableActivity="false"
+67-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-47
+68            android:screenOrientation="fullSensor"
+68-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-51
+69            android:theme="@style/UnityThemeSelector" >
+69-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-54
+70            <intent-filter>
+70-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-43:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:17-69
+71-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:17-77
+73-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:27-74
+74            </intent-filter>
+75
+76            <meta-data
+76-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-47:40
+77                android:name="unityplayer.UnityActivity"
+77-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:17-57
+78                android:value="true" />
+78-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-37
+79            <meta-data
+79-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:13-50:40
+80                android:name="android.notch_support"
+80-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:17-53
+81                android:value="true" />
+81-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:17-37
+82        </activity>
+83
+84        <meta-data
+84-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:9-55:33
+85            android:name="unity.splash-mode"
+85-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-45
+86            android:value="0" />
+86-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-30
+87        <meta-data
+87-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:9-58:36
+88            android:name="unity.splash-enable"
+88-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-47
+89            android:value="True" />
+89-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-33
+90        <meta-data
+90-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:9-61:36
+91            android:name="unity.launch-fullscreen"
+91-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-51
+92            android:value="True" />
+92-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-33
+93        <meta-data
+93-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:9-64:37
+94            android:name="unity.allow-resizable-window"
+94-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-56
+95            android:value="False" />
+95-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-34
+96        <meta-data
+96-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:9-67:50
+97            android:name="notch.config"
+97-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-40
+98            android:value="portrait|landscape" />
+98-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-47
+99        <meta-data
+99-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:9-70:39
+100            android:name="com.google.android.gms.ads.APPLICATION_ID"
+100-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-69
+101            android:value="4975382" />
+101-->[:unityLibrary] D:\TEMP\Extracted Temp Files\Unity Ads Assignment Project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:13-36
+102        <meta-data
+102-->[:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\dae4d6ab41d2d582b03ac5a214336f6a\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+103            android:name="com.google.android.gms.version"
+103-->[:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\dae4d6ab41d2d582b03ac5a214336f6a\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+104            android:value="@integer/google_play_services_version" />
+104-->[:com.google.android.gms.play-services-basement-18.1.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\dae4d6ab41d2d582b03ac5a214336f6a\com.google.android.gms.play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+105
+106        <provider
+106-->[:com.unity3d.mediation.admob-adapter-1.0.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\a1e23adcf43689c2d5005c039b962b9a\com.unity3d.mediation.admob-adapter-1.0.0\AndroidManifest.xml:6:5-8:16
+107            android:name="androidx.startup.InitializationProvider"
+107-->[:com.unity3d.mediation.admob-adapter-1.0.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\a1e23adcf43689c2d5005c039b962b9a\com.unity3d.mediation.admob-adapter-1.0.0\AndroidManifest.xml:6:15-69
+108            android:authorities="com.DefaultCompany.UnityAdsAssignmentProject.androidx-startup"
+108-->[:com.unity3d.mediation.admob-adapter-1.0.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\a1e23adcf43689c2d5005c039b962b9a\com.unity3d.mediation.admob-adapter-1.0.0\AndroidManifest.xml:6:70-153
+109            android:exported="false" >
+109-->[:com.unity3d.mediation.admob-adapter-1.0.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\a1e23adcf43689c2d5005c039b962b9a\com.unity3d.mediation.admob-adapter-1.0.0\AndroidManifest.xml:6:154-178
+110            <meta-data
+110-->[:com.unity3d.mediation.admob-adapter-1.0.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\a1e23adcf43689c2d5005c039b962b9a\com.unity3d.mediation.admob-adapter-1.0.0\AndroidManifest.xml:7:7-126
+111                android:name="com.unity3d.mediation.admobadapter.AdmobModuleInitializer"
+111-->[:com.unity3d.mediation.admob-adapter-1.0.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\a1e23adcf43689c2d5005c039b962b9a\com.unity3d.mediation.admob-adapter-1.0.0\AndroidManifest.xml:7:18-90
+112                android:value="androidx.startup" />
+112-->[:com.unity3d.mediation.admob-adapter-1.0.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\a1e23adcf43689c2d5005c039b962b9a\com.unity3d.mediation.admob-adapter-1.0.0\AndroidManifest.xml:7:91-123
+113            <meta-data
+113-->[:com.unity3d.mediation.mediation-sdk-1.0.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\0bec669b4db5995aaee0dd63758ff678\com.unity3d.mediation.mediation-sdk-1.0.0\AndroidManifest.xml:9:7-125
+114                android:name="com.unity3d.mediation.UnityMediationSDKModuleInitializer"
+114-->[:com.unity3d.mediation.mediation-sdk-1.0.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\0bec669b4db5995aaee0dd63758ff678\com.unity3d.mediation.mediation-sdk-1.0.0\AndroidManifest.xml:9:18-89
+115                android:value="androidx.startup" />
+115-->[:com.unity3d.mediation.mediation-sdk-1.0.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\0bec669b4db5995aaee0dd63758ff678\com.unity3d.mediation.mediation-sdk-1.0.0\AndroidManifest.xml:9:90-122
+116            <meta-data
+116-->[:com.unity3d.mediation.unityads-adapter-1.0.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\75d9a536bb859b134a0ca008d1f3aece\com.unity3d.mediation.unityads-adapter-1.0.1\AndroidManifest.xml:7:7-132
+117                android:name="com.unity3d.mediation.unityadsadapter.UnityAdsModuleInitializer"
+117-->[:com.unity3d.mediation.unityads-adapter-1.0.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\75d9a536bb859b134a0ca008d1f3aece\com.unity3d.mediation.unityads-adapter-1.0.1\AndroidManifest.xml:7:18-96
+118                android:value="androidx.startup" />
+118-->[:com.unity3d.mediation.unityads-adapter-1.0.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\75d9a536bb859b134a0ca008d1f3aece\com.unity3d.mediation.unityads-adapter-1.0.1\AndroidManifest.xml:7:97-129
+119        </provider>
+120
+121        <activity
+121-->[:com.google.android.gms.play-services-base-17.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\25f0e71bf732cf8088b688972ce84cbc\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+122            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+122-->[:com.google.android.gms.play-services-base-17.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\25f0e71bf732cf8088b688972ce84cbc\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+123            android:exported="false"
+123-->[:com.google.android.gms.play-services-base-17.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\25f0e71bf732cf8088b688972ce84cbc\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+124            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+124-->[:com.google.android.gms.play-services-base-17.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\25f0e71bf732cf8088b688972ce84cbc\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+125
+126        <provider
+126-->[:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\eda573c2d4d241dd5e9e1b3a651a38db\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:5-222
+127            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+127-->[:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\eda573c2d4d241dd5e9e1b3a651a38db\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:15-81
+128            android:authorities="com.DefaultCompany.UnityAdsAssignmentProject.lifecycle-process"
+128-->[:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\eda573c2d4d241dd5e9e1b3a651a38db\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:82-166
+129            android:exported="false"
+129-->[:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\eda573c2d4d241dd5e9e1b3a651a38db\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:167-191
+130            android:multiprocess="true" />
+130-->[:androidx.lifecycle.lifecycle-process-2.0.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\eda573c2d4d241dd5e9e1b3a651a38db\androidx.lifecycle.lifecycle-process-2.0.0\AndroidManifest.xml:20:192-219
+131
+132        <activity
+132-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:14:9-18:74
+133            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+133-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:15:13-74
+134            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+134-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:16:13-170
+135            android:hardwareAccelerated="true"
+135-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:17:13-47
+136            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+136-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:18:13-71
+137        <activity
+137-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:19:9-23:86
+138            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+138-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:20:13-85
+139            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+139-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:21:13-170
+140            android:hardwareAccelerated="true"
+140-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:22:13-47
+141            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+141-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:23:13-83
+142        <activity
+142-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:24:9-28:86
+143            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+143-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:25:13-93
+144            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+144-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:26:13-170
+145            android:hardwareAccelerated="false"
+145-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:27:13-48
+146            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+146-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:28:13-83
+147        <activity
+147-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:29:9-33:74
+148            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+148-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:30:13-82
+149            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+149-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:31:13-170
+150            android:hardwareAccelerated="false"
+150-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:32:13-48
+151            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+151-->[:com.unity3d.ads.unity-ads-4.4.1:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\2abea23fa3918728a824055cb3eab8a0\com.unity3d.ads.unity-ads-4.4.1\AndroidManifest.xml:33:13-71
+152        <activity
+152-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:40:5-254
+153            android:name="com.google.android.gms.ads.AdActivity"
+153-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:40:15-67
+154            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+154-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:40:68-177
+155            android:exported="false"
+155-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:40:178-202
+156            android:theme="@android:style/Theme.Translucent" />
+156-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:40:203-251
+157
+158        <provider
+158-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:41:5-219
+159            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+159-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:41:15-78
+160            android:authorities="com.DefaultCompany.UnityAdsAssignmentProject.mobileadsinitprovider"
+160-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:41:79-167
+161            android:exported="false"
+161-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:41:168-192
+162            android:initOrder="100" />
+162-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:41:193-216
+163
+164        <service
+164-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:42:5-116
+165            android:name="com.google.android.gms.ads.AdService"
+165-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:42:14-65
+166            android:enabled="true"
+166-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:42:66-88
+167            android:exported="false" />
+167-->[:com.google.android.gms.play-services-ads-lite-20.6.0:] C:\Users\SANDY CORE\.gradle\caches\transforms-2\files-2.1\1f4130310c15b3ea5d7cbdeb6f9ad968\com.google.android.gms.play-services-ads-lite-20.6.0\AndroidManifest.xml:42:89-113
+168    </application>
+169
+170</manifest>
